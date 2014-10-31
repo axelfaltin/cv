@@ -1,0 +1,69 @@
+\contentsline {section}{\numberline {1}Installation}{1}
+\contentsline {subsection}{\numberline {1.1}Extraction}{1}
+\contentsline {subsection}{\numberline {1.2}TDS-compliant layout}{1}
+\contentsline {subsection}{\numberline {1.3}AUC-T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m \xspace support}{1}
+\contentsline {subsection}{\numberline {1.4}Examples}{1}
+\contentsline {section}{\numberline {2}Overview}{1}
+\contentsline {subsection}{\numberline {2.1}Document Layout}{1}
+\contentsline {subsubsection}{\numberline {2.1.1}Headers}{1}
+\contentsline {subsubsection}{\numberline {2.1.2}Titles}{1}
+\contentsline {subsubsection}{\numberline {2.1.3}Rubrics}{1}
+\contentsline {paragraph}{\numberline {2.1.3.1}Entries}{1}
+\contentsline {paragraph}{\numberline {2.1.3.2}Subrubrics}{1}
+\contentsline {subsection}{\numberline {2.2}Document Structure}{1}
+\contentsline {subsubsection}{\numberline {2.2.1}Source File Splitting}{1}
+\contentsline {subsubsection}{\numberline {2.2.2}Flavors}{1}
+\contentsline {section}{\numberline {3}Using \unhbox \voidb@x \hbox {\fontfamily {ptm}\fontseries {b}\fontshape {it}\selectfont C\hspace {-.3ex}\raisebox {-.3ex}{\textmd {u}}\hspace {-.1ex}\textmd {r}\hspace {-.2ex}V\hspace {-.6ex}\raisebox {-.3ex}{\textmd {e}}}\xspace }{1}
+\contentsline {subsection}{\numberline {3.1}Skeleton File}{1}
+\contentsline {subsubsection}{\numberline {3.1.1}Headers}{1}
+\contentsline {paragraph}{\numberline {3.1.1.1}Header Components}{2}
+\contentsline {paragraph}{\numberline {3.1.1.2}Header Layout}{2}
+\contentsline {paragraph}{\numberline {3.1.1.3}Making Headers}{2}
+\contentsline {subsubsection}{\numberline {3.1.2}Titles}{2}
+\contentsline {paragraph}{\numberline {3.1.2.1}Title Components}{2}
+\contentsline {paragraph}{\numberline {3.1.2.2}Title Layout}{2}
+\contentsline {paragraph}{\numberline {3.1.2.3}Making Titles}{2}
+\contentsline {subsubsection}{\numberline {3.1.3}Flavors}{2}
+\contentsline {subsubsection}{\numberline {3.1.4}Rubrics}{2}
+\contentsline {subsection}{\numberline {3.2}Rubric Files}{2}
+\contentsline {subsubsection}{\numberline {3.2.1}The \texttt {rubric} Environment}{2}
+\contentsline {subsubsection}{\numberline {3.2.2}Standard Entries}{2}
+\contentsline {paragraph}{\numberline {3.2.2.1}Creating rubric entries}{2}
+\contentsline {paragraph}{\numberline {3.2.2.2}Entries layout}{2}
+\contentsline {subsubsection}{\numberline {3.2.3}Plain text entries}{3}
+\contentsline {subsubsection}{\numberline {3.2.4}Invisible entries}{3}
+\contentsline {subsubsection}{\numberline {3.2.5}Subrubrics}{3}
+\contentsline {subsection}{\numberline {3.3}Bibliography}{3}
+\contentsline {subsubsection}{\numberline {3.3.1}Manual bibliography}{3}
+\contentsline {subsubsection}{\numberline {3.3.2}The \texttt {bibliography} environment}{3}
+\contentsline {subsubsection}{\numberline {3.3.3}{\rmfamily B\kern -.05em\textsc {i\kern -.025em b}\kern -.08emT\kern -.1667em\lower .7ex\hbox {E}\kern -.125emX}}{3}
+\contentsline {subsubsection}{\numberline {3.3.4}Compatibility concerns}{3}
+\contentsline {subsection}{\numberline {3.4}Standard Class Features}{3}
+\contentsline {subsubsection}{\numberline {3.4.1}Page Size and layout}{3}
+\contentsline {subsubsection}{\numberline {3.4.2}Font Size}{3}
+\contentsline {subsubsection}{\numberline {3.4.3}Output Mode}{3}
+\contentsline {subsubsection}{\numberline {3.4.4}Page styles}{3}
+\contentsline {subsubsection}{\numberline {3.4.5}Internationalization}{4}
+\contentsline {section}{\numberline {4}Hints, Tips'n Tricks}{4}
+\contentsline {subsection}{\numberline {4.1}Page Geometry}{4}
+\contentsline {subsection}{\numberline {4.2}Vertical spacing}{4}
+\contentsline {subsection}{\numberline {4.3}The \texttt {ltx} Extension}{4}
+\contentsline {subsection}{\numberline {4.4}Longtable}{4}
+\contentsline {subsection}{\numberline {4.5}Managing Different Flavors}{4}
+\contentsline {subsection}{\numberline {4.6}More On Flavors}{4}
+\contentsline {section}{\numberline {A}Appendix}{4}
+\contentsline {subsection}{\numberline {A.1}Frequently Asked Questions}{4}
+\contentsline {subsection}{\numberline {A.2}Changes}{5}
+\contentsline {subsection}{\numberline {A.3}Implementation}{6}
+\contentsline {subsubsection}{\numberline {A.3.1}Rubric Files}{7}
+\contentsline {paragraph}{\numberline {A.3.1.1}Entries}{7}
+\contentsline {paragraph}{\numberline {A.3.1.2}Subrubrics}{8}
+\contentsline {paragraph}{\numberline {A.3.1.3}Rubrics}{10}
+\contentsline {subsubsection}{\numberline {A.3.2}Skeleton File}{11}
+\contentsline {paragraph}{\numberline {A.3.2.1}Utilities}{11}
+\contentsline {paragraph}{\numberline {A.3.2.2}Headers}{11}
+\contentsline {paragraph}{\numberline {A.3.2.3}Titles}{14}
+\contentsline {paragraph}{\numberline {A.3.2.4}Rubric Inclusion}{15}
+\contentsline {paragraph}{\numberline {A.3.2.5}Bibliography}{16}
+\contentsline {subsubsection}{\numberline {A.3.3}Language Processing}{22}
+\contentsline {subsubsection}{\numberline {A.3.4}Standard Class Processing}{23}

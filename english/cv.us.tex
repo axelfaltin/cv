@@ -1,0 +1,117 @@
+\NeedsTeXFormat{LaTeX2e}
+
+%\documentclass[german,a4paper,10pt]{curve}
+\documentclass[english,letter,10pt]{curve}
+
+%\usepackage{geometry}
+%\usepackage[centering]{geometry}
+%\usepackage[width=10cm,vscale=.7]{geometry}
+%\usepackage[margin=2cm]{geometry}
+% \usepackage[margin=1cm,includeheadfoot]{geometry}
+% \usepackage[margin=1cm,includemp]{geometry}
+% \usepackage[margin=1cm,bindingoffset=1cm,twoside]{geometry}
+% \usepackage[hmarginratio=2:1, vmargin=2cm]{geometry}
+%\usepackage[hscale=0.5,twoside]{geometry}
+% \usepackage[hscale=0.5,asymmetric]{geometry}
+% \usepackage[hscale=0.5,heightrounded]{geometry}
+
+\usepackage[nohead,nofoot,verbose,top=2cm, right=1.6cm, left=1.5cm,bottom=2cm]{geometry}
+
+%\usepackage[left=0.5cm,right=1.2cm,top=1cm,includefoot]{geometry}
+% \usepackage[lines=20,left=2cm,right=6cm,top=2cm,twoside]{geometry}
+% \usepackage[width=15cm, marginparwidth=3cm, includemp]{geometry}
+% \usepackage[hdivide={1cm,,2cm}, vdivide={3cm,8in,}, nohead]{geometry}
+% \usepackage[headsep=20pt, head=40pt,foot=20pt,includeheadfoot]{geometry}
+% \usepackage[text={6in,8in}, top=2cm, left=2cm]{geometry}
+% \usepackage[centering,includemp,twoside,landscape]{geometry}
+% \usepackage[margin=2cm,mag=1414]{geometry}
+% \usepackage[margin=2truecm,mag=1414,truedimen]{geometry}
+% \usepackage[compat2,marginpar=50pt,twosideshift=50pt]{geometry}
+
+%\usepackage[a5paper, landscape, twocolumn, twoside,
+%    left=2cm, hmarginratio=2:1, includemp, marginparwidth=43pt, 
+%    bottom=1cm, foot=.7cm, includefoot, textheight=11cm, heightrounded,
+%    columnsep=1cm, dvips,  verbose]{geometry}
+%---------------------------------------------------------------
+
+%\geometry{verbose,dvips}% options appended.
+
+
+\usepackage[english]{babel}
+\usepackage{color}
+\makeatletter
+\def\@rubrichead#1{%
+  \multicolumn{3}{@{}c}{%
+    \@rubricfont%
+    \makebox[0pt][l]{\colorbox[gray]{0.8}{\makebox[\@almosttextwidth]{}}}%
+    \makebox[\@almosttextwidth][c]{#1}\par\vspace{\rubricspace}}\\}
+\renewcommand\subrubric[1]{%
+  \@nextentry
+  \gdef\@nextentry{}%
+  &\multicolumn{2}{l}{%
+    \raisebox{\@beforespace}{\@subrubricfont%
+      \makebox[1ex][l]{\colorbox[gray]{0.8}{\textcolor[gray]{0.8}{M}}}#1}%
+    \par\vspace{\subrubricspace}}\\}
+\makeatother
+      
+% Axel Faltin: neue Kommandos um Zentrale Schalter zu haben
+
+% vertikaler abstand
+\newcommand*{\axelvspace}{\vspace{2pt}}
+
+% textstyle fuer role, project ..
+\newcommand*{\textax}[1]{\underline{\textsc{#1}}}
+%\newcommand*{\textax}[1]{\textbf{#1}}
+%\newcommand*{\textax}[1]{\textit{#1}}
+%\newcommand*{\textax}[1]{\texttt{#1}}
+
+\setlength\rubricspace{5pt} % defaults 10pt
+\setlength\titlespace{20pt}
+%\setlength\rubricspace{0pt}
+\setlength\subrubricspace{4pt} % defaults 5pt
+%\setlength\rubricafterspace{100pt}
+\setlength\subrubricbeforespace{4pt} % defaults 20pt
+
+\pagenumbering{Roman}
+\pagestyle{plain}
+
+%\setlength\rubricspace{3ex}% CurVe default: 5pt
+
+\leftheader{
+1322 Greenwood Street\\
+Evanston IL 60201\\
+USA\\
++1 847 778 3686}
+
+
+\rightheader{2nd Dec 1974\\
+German\\
+married, three kids \\
+mail@axel-faltin.de}
+
+\title{Axel Faltin}
+\subtitle{MBA, Dipl.-Wi-Inform. (Computer Science)}
+
+%Foto einbauen
+%\photo[c]{gegen.jpg}%Foto im jpg, pdf oder png-format rechts neben den Mail-Angaben platziert - m�gliche Optionen: r,c,l
+%\photoscale{0.12}%je nach Bedarf skalieren
+
+%\photo[r]{empty.jpg}
+
+\begin{document}
+
+\makeheaders[t]
+\vspace{18pt}
+\maketitle
+
+\makerubric{profile}
+\makerubric{careerdevelopment}
+\pagebreak
+\makerubric{education}
+
+\vspace{20pt}
+Chicago, \today
+
+\end{document}
+
+
