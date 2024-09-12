@@ -1,0 +1,14 @@
+# Fdb version 4
+["pdflatex"] 1726129650.49693 "profile.tex" "profile.pdf" "profile" 1726129650.73084 2
+  "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1719785820 42007 0b741a3c21a5ca32b40e3846e75b3548 ""
+  "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1723192315 8239400 672dd35e447c5f073101dcd29d142d19 ""
+  "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
+  "profile.aux" 1726129600.48651 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "profile.tex" 1726129650.38505 933 03962fffed4f7a2c843df1f51ff33d1a ""
+  (generated)
+  "profile.aux"
+  "profile.log"
+  "profile.pdf"
+  (rewritten before read)
